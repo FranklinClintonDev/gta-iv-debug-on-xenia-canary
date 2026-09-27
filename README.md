@@ -132,7 +132,7 @@ Example:
 
 #### Thanks to [Jorby](https://github.com/coldreactor64) for creating the Proxy that enables us to use RAG.
 
-#### Thanks to Gonzo for helping me set up the plugins correctly.
+#### Thanks to [Gonzo](https://hiddenpalace.org/User:Gonzo) (gonzo7s on discord) for helping me set up the plugins correctly.
 
 #### Thanks to [janmatant](https://github.com/jncroisthoirfinn) for releasing the devkit dump where these game builds were discovered.
 
