@@ -3,6 +3,7 @@
 ## Requirements
 - A copy of Grand Theft Auto IV for the Xbox 360.
 - The `gta4bankrelease_xenon.xex` and `gta4beta_xenon.xex` from the devkit.
+  - Found in the `Grand Theft Auto IV Leftover Feb 29, 2008 Data` from a Xbox 360 Test Kit.
 - GTAVSP.7z - Source Code or the P1 Torrent.
    - This is required for the RAG.
    - GTAVSP.7z SHA1 Hash: `ca39323730ed644fa534a2946506d4287f92a799`
