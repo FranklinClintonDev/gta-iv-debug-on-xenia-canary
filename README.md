@@ -61,7 +61,7 @@ title_id = "54540816"
 [[plugin]]
 name = "GTAIVBankreleaseNativeCompat"
 file = "GTAIVBankreleaseNativeCompat_xenia.xex"
-hash = "88677D765E817E0D"
+hash = "ENTER HASH HERE"
 desc = "Registers retail-only native aliases for gta4beta_xenon.xex"
 is_enabled = true
 
@@ -69,10 +69,20 @@ is_enabled = true
 [[plugin]]
 name = "GTAIVBankreleaseNativeCompat"
 file = "GTAIVBankreleaseNativeCompat_xenia.xex"
-hash = "EC1A84080D66849D"
+hash = "ENTER HASH HERE"
 desc = "Registers retail-only native aliases for gta4bankrelease_xenon.xex"
 is_enabled = true
   ```
+
+## Detect the hashes for "gta4bankrelease_xenon.xex" and "gta4beta_xenon.xex" to add them to "plugins.toml":
+
+1. Open your Xenia Canary configuration file (`xenia-canary.config.toml`) and ensure your `log_level` is set to at least `2`. 
+2. Run `gta4beta_xenon.xex` at least once through the emulator, then close it. 
+3. Open the `xenia.log` file generated in your emulator directory.
+4. Press Ctrl + F and search for `Module Hash:`
+5. Enter that hash in your `plugins.toml` at the first `"ENTER HASH HERE"` placeholder.
+6. Delete `xenia.log` and repeat the process for `gta4bankrelease_xenon.xex` and paste the hash in the second  `"ENTER HASH HERE"` placeholder inside `plugins.toml`.
+  
   6. Download this [patch for Xenia Canary](https://github.com/Los-Santos-Online/GTAIVBankreleaseNativeCompat/releases/) then put the `GTAIVBankreleaseNativeCompat_xenia.xex` in `Plugins/54540816`.
 
 ## Creating X:\ Drive
@@ -81,7 +91,7 @@ is_enabled = true
 2. Inside the folder, create a folder called `gta5`  
 3. Copy all content from `GTAVSP.7z/GTAV Source` folder to `gta5`  
   - Optionally you can skip step 1-3 and just use the `gta5` folder from the `P1` Torrent.
-4. Copy the two `.bat` files from the [`GTA V - X Drive Batch files`](GTA%20V%20-%20X%20Drive%20Batch%20Files) folder to your new folder  
+4. Copy the two `.bat` files from the [`GTA V - X Drive Batch files`](https://github.com/FranklinClintonDev/gta-v-source-code-guide/tree/main/GTA%20V%20-%20X%20Drive%20Batch%20Files) folder to your new folder  
 5. Run `Connect_X_Drive.bat`  
 6. Right-click on the gta5 folder, turn off the "Read-Only" option, then press "Apply"
 
@@ -89,7 +99,7 @@ is_enabled = true
 
 1. Run `X:\gta5\src\dev_ng\All_In_One_Install_Environment_Variables.bat`  
 2. Run `X:\gta5\src\dev_ng\setenv.bat`
-3. Copy all folders from [`dll_patches_x.zip`](GTA%20V%20-%20Source%20Code%20Patches/tools%20patch) to `X:\gta5\tools_ng\bin`, making sure to overwrite any existing files.
+3. Copy all folders from [`dll_patches_x.zip`](https://github.com/FranklinClintonDev/gta-v-source-code-guide/tree/main/GTA%20V%20-%20Source%20Code%20Patches/tools%20patch) to `X:\gta5\tools_ng\bin`, making sure to overwrite any existing files.
 4. Open `X:\gta5\tools_ng\etc\globals\studios.meta` and change SubnetMask to your IP4 but replace the last digit of your IP with 0 and put /24 at the end.
 
 Example:
@@ -124,7 +134,7 @@ Example:
 
 #### Thanks to Gonzo for helping me set up the plugins correctly.
 
-#### Thanks to Jan also known as janmatant, janthemanwlj for releasing the devkit dump where these game builds were discovered.
+#### Thanks to [janmatant](https://github.com/jncroisthoirfinn) for releasing the devkit dump where these game builds were discovered.
 
 #### Thanks to andre also known as Funtimeandrefoxy for extracting the devkit files.
 
